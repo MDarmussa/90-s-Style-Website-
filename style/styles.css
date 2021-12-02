@@ -1,3 +1,5 @@
+
+
 /* master style */
 
 *
@@ -10,6 +12,7 @@
 {
      display: grid;
      grid-template-columns: 1fr;
+     margin: 2em;
 }
 
 /* nav bar - left side*/
@@ -78,14 +81,13 @@
      grid-row-end: 3;
      grid-column-start: 1;
      grid-column-end: 3;
-     padding: 1em;
+     padding: 5em;
      background-repeat: no-repeat;
      background-size: 100% 100%;
-     border: 1px solid rgba(red, green, blue, alpha);
+     /* border: 1px solid rgba(red, green, blue, alpha); */
      height: 1335px;
-     margin: 20px;
+     margin: 5em;
      font-family: cursive;
-     /* margin-right: 50px; */
 
 }
 .home-content p
@@ -109,7 +111,7 @@
      background-size: 100% 100%;
      border: 1px solid rgba(red, green, blue, alpha);
      height: 1335px;
-     margin: 20px;
+     margin: 5em;
      font-family: cursive;
 }
 .aboutme-content h2
@@ -137,20 +139,21 @@
      background-size: 100% 100%;
      border: 1px solid rgba(red, green, blue, alpha);
      height: 1335px;
-     margin: 20px;
+     margin: 5em;
 }
 
 .contactInfo
 {
      padding-top: 40px;
+     font-size: 30px;
 }
 .title
 {
-    color: #fff;
+    color:rgb(62, 68, 88);
     text-transform: uppercase;
-    font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-left: 1em;
+    font-size: 50px;
 }
 .contactInfo ul
 {
@@ -160,20 +163,47 @@
 {
      position: relative;
      list-style: none; 
-     margin: 10px 0;
+     margin: 15px 0;
      cursor: pointer;
 }
 .contactInfo ul li .icon
 {
      display: inline-block;
      width: 30px;
-     font-size: 18px;
+     font-size: 30px;
      color: #03a9f4;
+     margin-left: 2em;
 }
 .contactInfo ul li span
 {
-     color:red;
+     color:rgb(9, 3, 31);
      font-weight: 300;
 }
 
+.contact-content h2
+{
+     color: slateblue;
+     font-size: 50px;
+     margin-left: 1em;
+     text-transform: uppercase;
+}
+.contact-content p
+{
+     color: rgb(7, 148, 71);
+     font-size: 30px;
+     margin-left: 1em;
+     letter-spacing: 1px;
+}
+.contact-content
+{
+     color: blue;
+}
+.contact-content input
+{
+     width: 170px;
+     height: 30px;
+}
+
+
+/* page4 hobbies */
 
