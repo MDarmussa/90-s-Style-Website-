@@ -88,8 +88,8 @@
      height: 1335px;
      margin: 5em;
      font-family: cursive;
-
 }
+
 .home-content p
 {
      color: blue;
@@ -98,13 +98,22 @@
 .home-content audio
 {
      margin-top: 34em;
-     margin-left: 72em;
+     margin-left: 66em;
      background-color: silver;
 }
-.home-content img
+.screenshot
 {
-     height: 303px;
-     width: 790px;
+     display:relative;
+     
+}
+
+.screenshot img
+{
+     height: 290px;
+     width: 780px;
+     margin-left: 1320px;
+     margin-top: -490px;
+     margin-bottom: 4em;
 }
 
 
