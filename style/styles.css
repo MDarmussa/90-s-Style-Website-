@@ -1,0 +1,179 @@
+/* master style */
+
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container
+{
+     display: grid;
+     grid-template-columns: 1fr;
+}
+
+/* nav bar - left side*/
+
+.header
+{
+     display: flex;
+     justify-content: space-between;
+     padding: 38px;
+}
+.menu
+{
+     display: flex;   
+}
+.menu > ul
+{
+     margin-right: 20px;
+     font-size: 0.9em;
+     text-transform: uppercase;
+     list-style: none;
+     display: flex;
+}
+
+.menu > ul li
+{
+     list-style: none;
+     padding: 10px;
+     margin: 2px;
+     font-size: large;
+     list-style-type: none;
+}
+.menu ul li:hover
+{
+     background-color: aqua;
+     opacity: 0.8;
+     border-bottom: 1px solid black;
+}
+.menu ul li a
+{
+     color: thistle;
+     text-decoration: none;
+     transition: color 0.5s;
+     font-size: 25px;
+}
+
+/* header right side */
+
+.right-side
+{
+     margin-left: 20px;
+     margin-top: 25px;
+     font-size: 0.9em;
+     text-transform: uppercase; 
+     /* font-family: cursive; */
+     font-size: 20px; 
+     color:rgb(209, 6, 67);
+}
+
+/*Page1 Home*/
+
+
+.home-content
+{
+     background-image: url(../images/bgimage.jpeg);
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 1;
+     grid-column-end: 3;
+     padding: 1em;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border: 1px solid rgba(red, green, blue, alpha);
+     height: 1335px;
+     margin: 20px;
+     font-family: cursive;
+     /* margin-right: 50px; */
+
+}
+.home-content p
+{
+     color: blue;
+     font-size: larger;
+}
+
+
+/* page2 About me */
+
+.aboutme-content
+{
+     background-image: url(../images/aboutme1.jpeg);
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 1;
+     grid-column-end: 3;
+     padding: 1em;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border: 1px solid rgba(red, green, blue, alpha);
+     height: 1335px;
+     margin: 20px;
+     font-family: cursive;
+}
+.aboutme-content h2
+{
+     color: mediumspringgreen;
+}
+.aboutme-content p
+{
+     color:rgb(0, 0, 0);
+     font-size: larger;
+}
+
+/* page3 Contact */
+
+.contact-content
+{
+     background-image: url(../images/contact.jpeg);
+     margin-left: 200px;
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 1;
+     grid-column-end: 3;
+     padding: 1em;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border: 1px solid rgba(red, green, blue, alpha);
+     height: 1335px;
+     margin: 20px;
+}
+
+.contactInfo
+{
+     padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul
+{
+     position: relative;
+}
+.contactInfo ul li
+{
+     position: relative;
+     list-style: none; 
+     margin: 10px 0;
+     cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+     display: inline-block;
+     width: 30px;
+     font-size: 18px;
+     color: #03a9f4;
+}
+.contactInfo ul li span
+{
+     color:red;
+     font-weight: 300;
+}
+
+
