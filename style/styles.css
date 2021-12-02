@@ -95,6 +95,17 @@
      color: blue;
      font-size: larger;
 }
+.home-content audio
+{
+     margin-top: 34em;
+     margin-left: 72em;
+     background-color: silver;
+}
+.home-content img
+{
+     height: 303px;
+     width: 790px;
+}
 
 
 /* page2 About me */
@@ -207,3 +218,69 @@
 
 /* page4 hobbies */
 
+body
+{
+     background-color: #f1f1f1;
+     padding: 20px;
+     font-family: arial;
+}
+.hobby-container
+{
+     max-width: 1000px;
+     margin: auto;
+}
+h1
+{
+     font-size: 45px;
+     word-break: break-all;
+     color:skyblue;
+}
+ .hobby-container .csa
+{
+     color:slateblue;
+     font-size: x-large;
+}
+.album-row
+{
+     margin: 8px -16px;
+}
+.album-row, .album-row > .album-column
+{
+     padding: 8px;
+}
+.album-column
+{
+    float: left;
+    width: 25%; 
+}
+.album-row::after
+{
+     content: "";
+     display: table;
+     clear: both;
+}
+.content
+{
+     background-color: white;
+     padding: 10px;
+}
+@media screen and (max-width: 900px) 
+{
+     .album-column 
+     {
+          width: 50%;
+     }
+}
+/* @media screen and (max-width: 600px) 
+{
+     .album-column 
+     {
+       width: 100%;
+     }
+} */
+
+.album-column .content img
+{
+     height: 230px;
+     width: 50px;
+}
